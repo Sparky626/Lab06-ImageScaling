@@ -28,7 +28,7 @@ int main() {
     switch(userInput) {
       // Loads file
       case 1:
-        
+        unsigned char *ConsoleGfx::loadFile(string file);
         break;
 
       // Loads test image
