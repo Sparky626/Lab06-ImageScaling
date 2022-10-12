@@ -7,12 +7,12 @@ string loadedFile = " ";
 
 
 int main() {
-  ConsoleGfx* console = ConsoleGfx.getInstance();
+  ConsoleGfx* console = ConsoleGfx::getInstance();
   
   // Displays welcome message
   cout << "Welcome to the Image Scaler!\n" << endl;
   cout << "Displaying Spectrum Image:";
-  ConsoleGfx::displayImage(ConsoleGfx::testRainbow);
+  console->displayImage(console->testRainbow);
   
   
 
